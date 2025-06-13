@@ -73,4 +73,16 @@ public class Carpool implements RideShareable {
     public User getDriver() {
         return driver;
     }
+
+    public Route getRoute() {
+        return route;
+    }
+
+    public int getMaxPassengers() {
+        return maxPassengers;
+    }
+
+    public List<User> getPassengers() {
+        return passengers;
+    }
 }
