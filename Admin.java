@@ -12,7 +12,7 @@ public class Admin extends User {
 
     public void viewReport(Carpool carpool) {
         System.out.println("========== Carpool Report ==========");
-        System.out.println("Route: " + carpool.getRoute().getOrigin() + " to " + carpool.getRoute().getDestination());
+        System.out.println("Route: " + carpool.getRoute().getOPickUpPoint() + " to " + carpool.getRoute().getDropPoint());
         System.out.println("Driver: " + carpool.getDriver().getName());
         System.out.println("Total Seats: " + carpool.getMaxPassengers());
         System.out.println("Available Seats: " + (carpool.getMaxPassengers() - carpool.getPassengers().size()));
