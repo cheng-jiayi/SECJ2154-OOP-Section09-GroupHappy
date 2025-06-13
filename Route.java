@@ -15,4 +15,12 @@ public class Route {
         System.out.println("Route: " + pickupPoint + " ➝ " + dropPoint);
         System.out.println("Pickup Time: " + pickupTime + " | Drop-off Time: " + dropOffTime);
     }
+
+    public String getPickUpPoint() {
+        return pickupPoint;
+    }
+
+    public String getDropPoint() {
+        return dropPoint;
+    }
 }
