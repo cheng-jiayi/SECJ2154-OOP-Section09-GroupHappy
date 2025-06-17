@@ -1,3 +1,9 @@
+/*SECJ2154 OOP SECTION 9 Group Happy
+1. CHENG JIA YI 	A23CS0215
+2. ONG YA SIAN	A23CS0260
+3. WONG JIA XUAN	A23CS0197
+4. YAP EN THONG	A23CS0284*/
+
 import java.util.Scanner;
 
 public class CarpoolMain {
